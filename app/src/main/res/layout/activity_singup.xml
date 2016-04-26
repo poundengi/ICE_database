@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent" android:layout_height="match_parent"
-    android:background="@drawable/man1">
+    android:layout_width="match_parent" android:layout_height="match_parent">
 
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:background="@drawable/man2">
 
         <TextView
             android:layout_width="match_parent"
@@ -16,14 +16,17 @@
             android:textSize="35sp"
             android:textAlignment="center"
             android:textColor="#fc0000"
-            android:background="#6effffff" />
+            android:background="#ffffff"
+            android:typeface="monospace"
+            android:layout_marginTop="10dp" />
 
         <LinearLayout
             android:orientation="vertical"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_marginTop="20dp"
-            android:background="#96ffffff">
+            android:background="#85ffffff"
+            android:layout_marginBottom="70dp">
 
             <LinearLayout
                 android:orientation="horizontal"
@@ -37,7 +40,9 @@
                     android:id="@+id/textView2"
                     android:textIsSelectable="true"
                     android:textSize="@dimen/h2"
-                    android:textColor="#e1fb0022" />
+                    android:textColor="#e1ffffff"
+                    android:typeface="monospace"
+                    android:layout_marginLeft="5dp" />
 
                 <EditText
                     android:layout_width="wrap_content"
@@ -61,7 +66,9 @@
                     android:id="@+id/textView3"
                     android:textIsSelectable="true"
                     android:textSize="@dimen/h2"
-                    android:textColor="#e1fb0022" />
+                    android:textColor="#e1ffffff"
+                    android:typeface="monospace"
+                    android:layout_marginLeft="5dp" />
 
                 <EditText
                     android:layout_width="wrap_content"
@@ -76,7 +83,8 @@
             <LinearLayout
                 android:orientation="horizontal"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp">
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -85,7 +93,8 @@
                     android:id="@+id/textView4"
                     android:textIsSelectable="true"
                     android:textSize="@dimen/h2"
-                    android:textColor="#e1fb0022" />
+                    android:textColor="#e1ffffff"
+                    android:typeface="monospace" />
 
                 <EditText
                     android:layout_width="wrap_content"
@@ -109,7 +118,9 @@
                     android:id="@+id/textView5"
                     android:textIsSelectable="true"
                     android:textSize="@dimen/h2"
-                    android:textColor="#e1fb0022" />
+                    android:textColor="#e1ffffff"
+                    android:typeface="monospace"
+                    android:layout_marginLeft="5dp" />
 
                 <EditText
                     android:layout_width="wrap_content"
@@ -133,7 +144,9 @@
                     android:id="@+id/textView6"
                     android:textIsSelectable="true"
                     android:textSize="@dimen/h2"
-                    android:textColor="#e1fb0022" />
+                    android:textColor="#e1ffffff"
+                    android:typeface="monospace"
+                    android:layout_marginLeft="5dp" />
 
                 <EditText
                     android:layout_width="wrap_content"
@@ -155,5 +168,12 @@
         android:id="@+id/button3"
         android:layout_alignParentBottom="true"
         android:textColor="#f60f0f"
-        android:background="#7cffffff" />
+        android:background="#ffffff"
+        android:layout_marginBottom="15dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_alignParentStart="true"
+        android:typeface="monospace"
+        android:textStyle="bold"
+        android:textSize="@dimen/h2" />
 </RelativeLayout>
