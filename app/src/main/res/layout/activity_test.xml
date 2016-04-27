@@ -153,5 +153,6 @@
         android:id="@+id/button4"
         android:layout_alignParentBottom="true"
         android:textSize="@dimen/h2"
-        android:background="#61ffffff" />
+        android:background="#61ffffff"
+        android:onClick="clickSignup" />
 </RelativeLayout>
